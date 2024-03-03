@@ -1,0 +1,63 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0 0;
+    position: relative;
+
+    input {
+        outline: none;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: red;
+        padding: .5% 2%;
+        border-radius: 10px;
+        color: #fff;
+        position: absolute;
+        top: 15%;
+        left: 65%;
+    }
+
+    p {
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+    button {
+        border: none;
+        background-color: green;
+        color: aliceblue;
+        padding: 2% 6%;
+        border-radius: 5px;
+        margin-left: 33%;
+    }
+
+    h3 {
+        position: absolute;
+        top: 17%;
+        color: red;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        position: absolute;
+        color: red;
+    }
+
+    .s1 {
+        top: 42%;
+        left: 46%;
+    }
+
+    .s2 {
+        top: 52.5%;
+        left: 45%;
+    }
+
+    .s3 {
+        left: 55%;
+    }
+}
